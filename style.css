@@ -1,0 +1,104 @@
+body {
+    background-color: #A5B6EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 103px;
+}
+
+.logo {
+    width: 244px;
+    height: 48px;
+}
+
+main {
+    background-color: #304567;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 360px;
+    border-radius: 16px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.timer_title {
+    color: #ffffff;
+    margin-top: 46px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    width: 312px;
+    height: 2px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.time_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time_label {
+    color: #a5b6ee;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.time_value {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #354971;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.time_separator {
+    margin-top: 38px;
+}
+
+.start_button, .reset_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #354577;
+    border: none;
+    color: #617199;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.button_group {
+    display: flex;
+    gap: 12px;
+}
+
+footer {
+    color: #8596BF;
+}
+
